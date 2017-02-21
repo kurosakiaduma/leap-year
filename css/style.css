@@ -5,3 +5,7 @@ body{
 #header{
     text-decoration: underline;
 }
+
+#result{
+    display: none;
+}
