@@ -1,8 +1,8 @@
-# Favorite things
-This is a webpage that has a form for the user to input their favorite things into.
+# Leap year calculator
+This is a webpage that finds out whether a year that the user inputs is a leap year.
 
 ## About
-The page is basically a study of storing data in arrays and displaying the data as an unordered list.
+The project is basically a study of getting the concept of a BDD skills(Behavior Driven Development).
 
 
 ### Prequisites
@@ -13,11 +13,11 @@ The page is basically a study of storing data in arrays and displaying the data 
 1. To view the raw code of the webpage you will probably need a text editor e..g **Atom** or **Brackets**
 
 ### Installing
-* Using your **Terminal**, you will need to clone/fork the repository containing the root folder to your computer using this command: $ git clone https://github.com/kurosakiaduma/fav-things
+* Using your **Terminal**, you will need to clone/fork the repository containing the root folder to your computer using this command: $ git clone https://github.com/kurosakiaduma/leap-year
 
 OR
 
-* Directly download the root folder to your computer using [this link](https://github.com/kurosakiaduma/fav-things/archive/master.zip)
+* Directly download the root folder to your computer using [this link](https://github.com/kurosakiaduma/leap-year/archive/master.zip)
 
 ## Deployment
 1. After unpacking the contents, use **Atom** to open the **HTML**,  **Javascript** and **CSS** to view the source code of the project.
