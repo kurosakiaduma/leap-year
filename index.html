@@ -15,19 +15,21 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 id = "header" >Find out which years are leap years</h1>
-        <div id="lyear">
-            <form>
-                <div class="form-group">
-                    <label for="leap">1</label>
-                    <input id="leap" class="form-control" type="number" placeholder="Enter a leap year here">
-                </div>
-                <button type="submit" class="btn">Evaluate!</button>
-            </form>
+      <div class="container">
+        <h1>Leap year detector</h1>
+
+        <form id="leap-year">
+          <div class="form-group">
+            <label for="year">Enter a year and find out if it's a leap year:</label>
+            <input id="year" type="text">
+          </div>
+
+          <button type="submit" class="btn">Find out!</button>
+        </form>
+
+        <div id="result">
+
         </div>
-
-
-</body>
-
+      </div>
+    </body>
 </html>

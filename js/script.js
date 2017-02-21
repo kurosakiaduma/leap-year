@@ -1,17 +1,18 @@
 $(document).ready(function() {
+    $("form#leap-year").submit(function(event) {
+        event.preventDefault();
 
-    $("#lyear form").submit(function(event) {
-        var one = document.getElementById("leap").value;
+        var leapYear = function(year) {
+            if (year % 4 === 0) {
+                return true;
+            } else {
+                return false;
+            }
+        };
 
 
-
-        var evaluate = [];
-
-
-        for (var currentNumber = two; currentNumber <= one; currentNumber += two) {
-            evaluate += currentNumber;
-        }
-        alert(evaluate);
-
+        var year = parseInt($("input#year").val());
+        var result = leapYear(year);
+        $("#result").text(result);
     });
 });
