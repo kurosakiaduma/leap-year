@@ -4,6 +4,25 @@ This is a webpage that finds out whether a year that the user inputs is a leap y
 ## About
 The project is basically a study of getting the concept of a BDD skills(Behavior Driven Development).
 
+The specs for the program logic are:
+1. The program should return when a year is not a leap year.
+Input Example: 1993
+Output Example: false
+
+1. The program should return 'true' for years divisible by 4, since those are leap years.
+Input Example: 2004
+Output Example: true
+1. The program should return 'false' for years divisible by 100, since those are not leap years.
+Input Example: 1900
+Output Example: false
+1. The program should return 'true' for years divisible by 400, since those are leap years.
+Input Example: 2000
+Output Example: true
+
+The back-end logic format for the program determines whether years are divisible by **4** OR **100** AND **400** using a for Loop function and refactoring the parameters.
+
+
+
 
 ### Prequisites
 1. You **need a Github account** to clone the project directory from my repository.
